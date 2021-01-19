@@ -18,4 +18,4 @@ def bipolar_sigmoid(x):
 
 
 def derivative_bipolar_sigmoid(x):
-    (1/2) * (1+bipolar_sigmoid(x)) * (1-bipolar_sigmoid(x))
+    return (1/2) * (1+bipolar_sigmoid(x)) * (1-bipolar_sigmoid(x))
